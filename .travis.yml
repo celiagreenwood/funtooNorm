@@ -1,0 +1,20 @@
+language: r
+sudo: required
+
+bioc_packages:
+  - BiocStyle
+  - illuminaio
+  - minfi
+  - minfiData
+
+r_binary_packages:
+  - knitr
+  - pls
+
+apt_packages:
+  - latex-xcolor
+
+notifications:
+  email:
+    - maxime.turgeon@mail.mcgill.ca
+    - stepanv1@gmail.com
